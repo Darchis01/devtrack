@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-const API_URL = 'http://localhost:5000/api'
+const API_URL = 'https://devtrack-x2xl.onrender.com/api'
 
 function App() {
   const [tasks, setTasks] = useState([])
